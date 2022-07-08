@@ -1,0 +1,53 @@
+/*fonte nav*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    /* CSS RESET*/
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+hr {
+    border: 1px solid rgb(77, 77, 77);
+
+}
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav, h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#nav-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#menu-select {
+    /*Menu de seleção*/
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#logo-uni {
+    /*Logo da universidade*/
+    width: 50%;
+}
+main {
+    margin: auto;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+#capa {
+    padding: 20px 0 20px 0;
+}
