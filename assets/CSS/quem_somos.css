@@ -78,8 +78,8 @@ main {
     font-family: 'PT Serif', serif;
     text-align: justify;
 }
-#capa {
-    padding: 55px 0;
+#banner {
+    padding: 110px 0;
     /*Centralizar a imagem*/
     display: flex;
     justify-content: center;
