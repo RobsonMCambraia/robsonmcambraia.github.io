@@ -14,18 +14,30 @@
     <nav>
         <div id="nav-container">
             <div id="logo-uni">
-                <img src="assets/IMG/logo-ConversImagem.png" alt="logo_uni">
+                <a href="index.html"><img src="assets/IMG/logo-ConversImagem.png" alt="logo_uni"></a>
             </div>
             <ul id="menu-select">
-                <li><strong>Home</strong></li>
-                <li><strong>Quem somos?</strong></li>
-                <li><strong>Contato</strong></li>
+                <li class="hover-underline-animation">
+                    <a href="#" target="_self" class="menu-link"><strong>Home</strong></a>
+                </li>
+                <li class="hover-underline-animation">
+                    <a href="#" target="_self" class="menu-link"><strong>Quem somos?</strong></a>
+                </li>
+                <li class="hover-underline-animation">
+                    <a href="#" target="_self" class="menu-link"><strong>Contato</strong></a>
+                </li>
             </ul>
         </div>
     </nav>
     <!--Conteúdo principal-->
     <main>
-        <div id="capa"><img src="assets/IMG/capa.png" alt=""></div>
+        <div id="capa">
+            <picture>
+                <source media="(max-width: 750px)" srcset="assets/IMG/capa-300px.png" type="image/png">
+                <source media="(max-width: 900px)" srcset="assets/IMG/capa-700px.png" type="image/png">
+                <img src="assets/IMG/capa-1000px.png" alt="capa-1000px">
+            </picture>
+        </div>
         <h2>Sobre a universidade</h2>
         <hr> <br>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam felis arcu, eleifend pellentesque purus egestas vitae. Phasellus nisi nibh, venenatis sed eros in, commodo pellentesque ex. Proin vel eros non quam gravida tempor. Nulla sed leo orci. Proin ut pulvinar purus. Nunc a ligula rutrum, scelerisque ex ac, euismod elit. Etiam nec sapien non lacus facilisis feugiat vitae sed quam. Curabitur rhoncus ex quis purus sodales auctor.</p> <br>

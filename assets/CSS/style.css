@@ -1,5 +1,7 @@
 /*fonte nav*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+/*Fonte main*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 * {
     /* CSS RESET*/
@@ -14,8 +16,8 @@ hr {
 
 }
 nav {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,16 +40,47 @@ nav, h2 {
     flex-direction: row;
     justify-content: space-around;
 }
+.menu-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Hover animation to menu-select*/
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+}
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 #logo-uni {
     /*Logo da universidade*/
     width: 50%;
 }
 main {
+    /*Conteúdo principal*/
     margin: auto;
     width: 70%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Serif', serif;
     text-align: justify;
 }
 #capa {
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
+    /*Centralizar a imagem*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
