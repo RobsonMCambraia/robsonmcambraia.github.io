@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Link for css style-->
+    <link rel="stylesheet" href="assets/CSS/contato.css">
+    
+    <!--link for favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Contato</title>
+</head>
+<body>
+    <!--PAINEL DE NAVEGAÇÃO | CABEÇALHO-->
+    <nav>
+        <div id="nav-container">
+            <div id="logo-uni">
+                <a href="index.html"><img src="assets/IMG/logo-ConversImagem.png" alt="logo_uni"></a>
+            </div>
+            <ul id="menu-select">
+                <li class="hover-underline-animation">
+                    <a href="index.html" target="_self" class="menu-link"><strong>Home</strong></a>
+                </li>
+                <li class="hover-underline-animation">
+                    <a href="quem_somos.html" target="_self" class="menu-link"><strong>Quem somos?</strong></a>
+                </li>
+                <li class="hover-underline-animation">
+                    <a href="contato.html" target="_self" class="menu-link"><strong>Contato</strong></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <!--Conteúdo principal-->
+        <h2>Entre em contato conosco!</h2>
+        <hr> <br>
+        <p>Preencha o formulário abaixo, e um membro da nossa equipe entrará em contato <br> para saber mais sobre as suas necessidades de ensino.</p> <br>
+        <form id="cadastro-form">
+        <!--Formulário para contato-->
+            <div id="contato">
+                <div id="esquerda-form">
+                    <div class="input-div">
+                        <input type="text" name="nome" placeholder="Nome completo *">
+                    </div>
+                    <div class="input-div">
+                        <input type="tel" name="número de telefone" placeholder="Telefone para contato">
+                    </div>
+                </div>
+
+                <div id="direita-form">
+                    <div class="input-div">
+                        <input type="email" name="email" placeholder="Seu melhor e-email *">
+                    </div>
+                    <div class="input-div">
+                    <select id="estado" name="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    </select>                    </div>
+                </div>   
+            </div>
+
+            <div id="texto-form">
+                <div class="input-div-text-form">
+                    <input id="assunto" type="text" name="assunto" placeholder="Assunto *">
+                </div>
+                <div class="input-div-text-form">
+                    <textarea id="msg" name="msg" rows="4" cols="50" placeholder="Notas" ></textarea>
+                </div>
+            </div>
+        </form>
+        <p>Ao clicar no botão abaixo, você concorda com nossos <a href="#">Termos de Serviço</a> e aceita <br> nossa <a href="#">Política de Privacidade Global</a>.</p> <br>
+        <button type="submit" id="submmit""> Entre em contato</button>
+    </main>
+    <footer>
+        <!--Rodapé da página-->
+        <small>
+            <strong>Todos os direitos reservados. &copy;</strong>
+        </small>
+    </footer>
+</body>
+</html>
