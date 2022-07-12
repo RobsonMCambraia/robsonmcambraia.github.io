@@ -79,7 +79,7 @@ main {
     text-align: justify;
 }
 #capa {
-    padding: 55px 0;
+    padding: 110px 0 20px;
     /*Centralizar a imagem*/
     display: flex;
     justify-content: center;
